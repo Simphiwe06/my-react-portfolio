@@ -10,42 +10,49 @@
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "My expertise in back-end development revolves around building robust and scalable server-side solutions to power dynamic web applications. With proficiency in languages like Node.js and frameworks like Express.js, I design and implement efficient APIs, manage databases, and handle server-side logic, ensuring smooth functionality and data management."
+      "description": "My expertise in back-end development revolves around building robust and scalable server-side solutions to power dynamic web applications. With proficiency in languages like Node.js, I design and implement efficient APIs, manage databases, and handle server-side logic, ensuring smooth functionality and data management."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "UI & UX Design",
-      "description": "In UI/UX design, I combine creativity with user-centric principles to design visually stunning and highly usable interfaces. Through thorough research, wireframing, and prototyping, I strive to understand user needs and behaviors, crafting interfaces that are not only aesthetically pleasing but also intuitive and accessible, enhancing the overall user experience."
+      "description": "In UI/UX design, I combine creativity with user-centric principles to design visually stunning and highly usable interfaces. Through thorough research, wireframing, and prototyping, I strive to understand user needs and behaviors, crafting interfaces that are intuitive and accessible, enhancing the overall user experience."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "Responsive Design",
-      "description": "My focus on responsive design ensures that websites I develop adapt seamlessly to various screen sizes and devices, providing users with an optimal viewing experience. Using a combination of fluid grids, flexible images, and media queries, I create layouts that adjust dynamically, maintaining usability and accessibility across desktops, tablets, and mobile devices."
+      "description": "My focus on responsive design ensures that websites I develop adapt seamlessly to various screen devices, providing users with an optimal viewing experience. Using a combination of fluid grids, and media queries, I create layouts that adjust dynamically, and accessibility across desktops, tablets, and mobile devices."
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/podplug.png",
+      "title": "PodPlug",
+      "description": "Developed an immersive podcast platform offering a user-friendly interface for effortless navigation. The platform ensures uninterrupted episode playback, and personalized favorites playlist. Utilize smart search and filtering options to effortlessly discover podcasts across genres and enhance your listening experience.",
+      "link": "View Live"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/book-connect.png",
+      "title": "Book Connect",
+      "description": "Crafted a seamless and user-friendly book-connect application, integrating responsive design and interactive features. Implemented a robust search functionality, allowing users to find books based on various criteria like title, author, genre. Maintained up-to-date documentation for the codebase and APIs.",
+      "link": "View Live"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/gpt-3.png",
+      "title": "Gpt-3",
+      "description": "Effortlessly translating Figma designs into a sleek and responsive GPT-3 application, I've brought concepts to life seamlessly. The live demo showcases its capabilities, including instant conversion of designs into responsive apps, a modern and intuitive interface, and the magic of GPT-3 with its interactions. ",
+      "link": "View Live"
+    },
+    {
+      "id": "4",
+      "src": "./img/restaurant.png",
+      "title": "Modern Restaurant",
+      "description": "Crafting a fully responsive modern restaurant application, I've seamlessly translated Figma designs into a dynamic digital platform. The live demo showcases its features, including instant conversion of designs into responsive layouts, a sleek and intuitive interface tailored for modern dining experiences.",
+      "link": "View Live"
     }
   ],
   "testimonial": [

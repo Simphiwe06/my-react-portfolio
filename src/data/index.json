@@ -30,55 +30,36 @@
       "id": "1",
       "src": "./img/podplug.png",
       "title": "PodPlug",
-      "description": "Developed an immersive podcast platform offering a user-friendly interface for effortless navigation. The platform ensures uninterrupted episode playback, and personalized favorites playlist. Utilize smart search and filtering options to effortlessly discover podcasts across genres and enhance your listening experience.",
-      "link": "View Live"
+      "description": "Crafted immersive podcast platform with user-friendly interface for easy navigation, ensuring uninterrupted and personalized playlists.",
+      "link": "https://simphiwe-the-podplug.netlify.app"
     },
     {
       "id": "2",
       "src": "./img/book-connect.png",
       "title": "Book Connect",
-      "description": "Crafted a seamless and user-friendly book-connect application, integrating responsive design and interactive features. Implemented a robust search functionality, allowing users to find books based on various criteria like title, author, genre. Maintained up-to-date documentation for the codebase and APIs.",
-      "link": "View Live"
+      "description": "Developed seamless book-connect application with responsive design, robust search functionality, and up-to-date documentation.",
+      "link": "https://simphiwe-book-connect.netlify.app"
     },
     {
       "id": "3",
       "src": "./img/gpt-3.png",
       "title": "Gpt-3",
-      "description": "Effortlessly translating Figma designs into a sleek and responsive GPT-3 application, I've brought concepts to life seamlessly. The live demo showcases its capabilities, including instant conversion of designs into responsive apps, a modern and intuitive interface, and the magic of GPT-3 with its interactions. ",
-      "link": "View Live"
+      "description": "Translated Figma designs into a sleek powered application, showcasing instant conversion, modern interface, and interactive capabilities.",
+      "link": "https://simphiwe-gpt3.netlify.app"
     },
     {
       "id": "4",
       "src": "./img/restaurant.png",
       "title": "Modern Restaurant",
-      "description": "Crafting a fully responsive modern restaurant application, I've seamlessly translated Figma designs into a dynamic digital platform. The live demo showcases its features, including instant conversion of designs into responsive layouts, a sleek and intuitive interface tailored for modern dining experiences.",
-      "link": "View Live"
-    }
-  ],
-  "testimonial": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "description": "Crafted responsive restaurant application with dynamic layouts and intuitive interface for modern dining experiences.",
+      "link": "https://simphiwe-restaurant-app.netlify.app/"
     },
     {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "id": "5",
+      "src": "./img/weather-app.png",
+      "title": "Weather App",
+      "description": "Furnishing you with unparalleled accuracy and up-to-the-minute weather insights specific to your locale through our innovative weather web app.",
+      "link": "https://weather-app-nextjs-simphiwe.vercel.app/"
     }
   ]
 }

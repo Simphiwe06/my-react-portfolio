@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
@@ -5,10 +7,10 @@ export default function ContactMe() {
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-        Feel free to reach out to me with any inquiries or collaboration opportunities!
+          Feel free to reach out to me with any inquiries or collaboration opportunities!
         </p>
       </div>
-      <form className="contact--form--container">
+      <form className="contact--form--container" action="mailto:simphiwembuli06@gmail.com" method="post" encType="text/plain">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -41,9 +43,9 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
+            <span className="text-md">Phone Number</span>
             <input
-              type="number"
+              type="tel"
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
@@ -51,9 +53,9 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
+        <label htmlFor="choose-topic" className="contact--label">
+          <span className="text-md">Choose a Topic</span>
+          <select id="choose-topic" className="contact--input text-md" name="choose-topic">
             <option>Select One...</option>
             <option>Job Opportunity</option>
             <option>Collaboration</option>
@@ -67,14 +69,15 @@ export default function ContactMe() {
             id="message"
             rows="8"
             placeholder="Type your message..."
-          />
+            name="message"
+          ></textarea>
         </label>
-        <label htmlFor="checkboc" className="checkbox--label">
+        <label htmlFor="checkbox" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
           <span className="text-sm">I accept the terms</span>
         </label>
         <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          <button type="submit" className="btn btn-primary contact--form--btn">Submit</button>
         </div>
       </form>
     </section>

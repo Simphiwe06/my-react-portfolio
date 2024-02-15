@@ -1,4 +1,13 @@
+import React from 'react';
+
 export default function HeroSection() {
+  const handleGetInTouchClick = () => {
+    const contactSection = document.getElementById('Contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
@@ -10,11 +19,13 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-          Welcome to my digital realm of coding adventures.
+            Welcome to my digital realm of coding adventures.
             <br /> -where creativity meets functionality and innovation.
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button className="btn btn-primary" onClick={handleGetInTouchClick}>
+          Get In Touch
+        </button>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img.png" alt="Hero Section" />
